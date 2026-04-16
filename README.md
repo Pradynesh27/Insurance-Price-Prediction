@@ -3,13 +3,13 @@
 
 This project aims to predict the medical insurance costs of individuals based on several factors such as age, BMI, smoking status, and more. By leveraging machine learning regression techniques, we can provide accurate cost estimates for both providers and consumers.
 
-## 🚀 Key Results
+##  Key Results
 * **Best Model:** Tuned XGBoost Regressor
 * **Accuracy ($R^2$ Score):** 0.8599
 * **Mean Absolute Error (MAE):** 2590.49
 * **Key Findings:** Smoking status and BMI were the most significant predictors of insurance charges.
 
-## 📊 Dataset Features
+##  Dataset Features
 The dataset contains 1,338 records with the following attributes:
 - **Age:** Age of the primary beneficiary.
 - **Sex:** Insurance contractor gender (female/male).
@@ -19,13 +19,13 @@ The dataset contains 1,338 records with the following attributes:
 - **Region:** The beneficiary's residential area in the US.
 - **Charges:** Individual medical costs billed by health insurance (Target).
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn
 - **Machine Learning:** Scikit-Learn, XGBoost
 - **Optimization:** RandomizedSearchCV, Cross-Validation
 
-## 📈 Project Workflow
+##  Project Workflow
 1. **Exploratory Data Analysis (EDA):** Visualized feature distributions and correlations.
 2. **Data Preprocessing:** - Handled categorical variables using Label Encoding.
    - Standardized features using `StandardScaler`.
